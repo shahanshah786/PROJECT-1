@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+
+
+
+        <title>SIGNUP TO ANAM JEWELLERY</title>
+
+<head>
+
+</head>
+        <div class="navbar">
+         <a href="index.html">HOME</a>
+        </div>
+
+        <style>
+         .navbar {
+            background-color: #CC3818;
+          font-family: Arial;
+         }
+         .navbar a {
+            float:right;
+          font-size: 16px;
+          color:green;
+          padding: 14px 16px;
+          text-decoration: none;
+         }
+         .navbar a:hover {
+            background-color: yellow;
+         }
+        </style>
+
+
+
+
+ <body>
+
+                 <!--sign css-->
+
+
+
+   <style>
+         input[type=text],input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 2px solid #ccc;
+            box-sizing: border-box;
+         }
+        
+         button {
+            background-color: green;
+            color: white;
+            padding: 12px 20px;
+            margin-left: 50px;
+            cursor: pointer;
+            width: 10%;
+         }
+         .cancelbtn {
+            padding: 15px 20px;
+            background-color: #ff2e00;
+         }
+         .cancelbtn,
+         .signupbtn{
+            float:center;
+            width: auto;
+        }
+        .container{
+         padding: 50px;          
+        }
+        .clearfix::after {
+         content:"";
+         clear: both;
+         display: table;
+        }
+
+        @media screen and (max-width: 200px) {
+         .cancelbtn,
+         .signupbtn {width: 100%;}
+         
+        }         
+   </style>
+
+
+             <!--html sign-->
+
+     <h2>SIGNUP FORM</h2>
+     <form action="/action_page.php" style="border:1px solid #ccc">
+         <div class="container">
+
+          <label><b>EMAIL</b></label>
+          <input type="text"
+                 placeholder="Enter Email"
+                 name="Email" required>
+  
+
+          <label><b>PASSWORD</b></label>
+          <input type="text"
+                 placeholder="Enter password"
+                 name="psw" required>
+             
+          <label><b>CONFIRM PASSWORD</b></label> 
+          <input type="text"
+                 placeholder="Confirm Password"
+                 name="psw-confirm" required>
+          <input type="checkbox"
+                 checked="checked"> Remender Me 
+          <p>
+             Are You Agree For Signup  <a href="#">Term & Condition</a>
+          </p>             
+
+          </div class="clearfix">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <button type="Submit" class="signupbtn">Sign Up</button>
+
+          </div>
+       </div>
+   
+     </form>
+</body> 
+</html>
